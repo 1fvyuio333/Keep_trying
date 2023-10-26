@@ -14,4 +14,8 @@ python encode.py
 
 
 然后打包load.py
+#Pyinstaller
+```
+nuitka --mingw64 --standalone --show-progress --follow-imports --onefile --output-dir=out moon_kill.py
 
+```
