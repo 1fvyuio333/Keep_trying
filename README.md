@@ -23,3 +23,7 @@ pyinstaller -Fw load.py
 nuitka --mingw64 --standalone --show-progress --follow-imports --onefile --output-dir=out load.py
 
 ```
+效果
+![image-20231026155052662](https://github.com/1fvyuio333/Keep_trying/assets/106239269/85700733-7136-4bf2-a982-4e277d109bb7)
+![image-20231026161923197](https://github.com/1fvyuio333/Keep_trying/assets/106239269/792b13c4-f3f7-431e-954a-3dca6088047e)
+![image-20231026161809555](https://github.com/1fvyuio333/Keep_trying/assets/106239269/42724e1c-c3d2-4abe-961e-6031b2707976)
