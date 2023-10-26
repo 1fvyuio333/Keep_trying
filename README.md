@@ -19,6 +19,7 @@ python encode.py
 pyinstaller -Fw load.py
 ```
 ```
+#nuitka(需要安装mingw64)
 nuitka --mingw64 --standalone --show-progress --follow-imports --onefile --output-dir=out load.py
 
 ```
