@@ -1,7 +1,7 @@
 # Keep-trying
 一款基于python的shellcode免杀加载器，Bypass AV
 
-
+采用网络探测进行简单反沙箱，随机码表base64+随机位移进行加载器和shellcode的加密，并采用分离加载。
 
 ## 使用
 
